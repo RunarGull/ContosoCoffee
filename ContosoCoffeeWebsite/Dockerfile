@@ -2,7 +2,7 @@
 FROM nginx:1.23.1-alpine
 
 # Copy ContosoCoffee folder and including its subdirectories.
-ADD /html/ /usr/share/nginx/html
+ADD /ContosoCoffee/ContosoCoffeeWebsite/html /usr/share/nginx/html
 
 # Changing the ownership of the files to nginx. So it is possible for nginx to read the files
 RUN chown -R nginx:nginx /usr/share/nginx/html/
