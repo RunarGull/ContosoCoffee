@@ -1,10 +1,10 @@
-# Use Linux Alpine as a base image with nginx webserver installed.
+# Use Linux Alpine as a base image with nginx.
 FROM nginx:1.23.1-alpine
 
-# Copy ContosoCoffee folder and including its subdirectories.
+# Copy ContosoCoffee folder and subdirectories.
 ADD /html /usr/share/nginx/html
 
-# Changing the ownership of the files to nginx. So it is possible for nginx to read the files
+# Changing the ownership of the files to nginx.
 RUN chown -R nginx:nginx /usr/share/nginx/html/
 
 # Allow port 80 to be exposed.
