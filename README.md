@@ -32,7 +32,7 @@ When the case study stated that we must assign the user accounts admin access. W
 
 Note that the "Project Managers" group is the student collaborators for the project. Notice that their groups is placed inside the "Container Registry Developer". Instead of assigning each users individually to a group, you can just assign a whole group. This method is known as a "group nesting". Which is a big part of administration, and makes it so much easier. The mehtod is also formerly known as a "A-G-DL-P" practice.
 
-Let´s say Bob (the owner) wishes to hire app developers to create a new image with use of Container Instances. He can then just initiate a Business-To-Business collaboration and assign their external group into the "Container Registry Developer" security group. Which allowes them to push new images into the registry.
+Let´s say Bob (the owner) wishes to hire app developers who can create another website with use of Container Instances. He can then just initiate a Business-To-Business (B2B) collaboration and assign their external user-accounts / group into the Container Registry Developer security group. Which allows them to push new images into the registry.
 
 The same thing applies to the other security groups as well. An administator can just place new users, or existing groups within those groups to easily administer user accounts. Instead of individually assigning roles and permissions to every users.
 
@@ -69,4 +69,4 @@ This is the how the deployed website looks. It the HTML code is originally borro
 
 _____________________________________________
 # Azure Resource Manager (ARM) Template
-The ARM template is available on this repo. If you wishes to re-deploy our solution - Please feel free to use our template.
+The ARM template is available on this repo. If you wish to re-deploy our solution - Please, feel free to use our template.
